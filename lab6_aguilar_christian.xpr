@@ -35,13 +35,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="0"/>
-    <Option Name="WTModelSimExportSim" Val="0"/>
-    <Option Name="WTQuestaExportSim" Val="0"/>
-    <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="0"/>
-    <Option Name="WTRivieraExportSim" Val="0"/>
-    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="1"/>
+    <Option Name="WTModelSimExportSim" Val="1"/>
+    <Option Name="WTQuestaExportSim" Val="1"/>
+    <Option Name="WTIesExportSim" Val="1"/>
+    <Option Name="WTVcsExportSim" Val="1"/>
+    <Option Name="WTRivieraExportSim" Val="1"/>
+    <Option Name="WTActivehdlExportSim" Val="1"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -51,30 +51,38 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/vga_timing.v">
+      <File Path="$PSRCDIR/sources_1/imports/ee178_spring2017_lab6/vga_timing.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/vga_timing.v"/>
+          <Attr Name="ImportTime" Val="1445834080"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/linedraw.v">
+      <File Path="$PSRCDIR/sources_1/imports/ee178_spring2017_lab6/linedraw.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/linedraw.v"/>
+          <Attr Name="ImportTime" Val="1445834350"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/vga_example.v">
+      <File Path="$PSRCDIR/sources_1/imports/ee178_spring2017_lab6/vga_example.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/vga_example.v"/>
+          <Attr Name="ImportTime" Val="1445784936"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/tiff_writer.v">
+      <File Path="$PSRCDIR/sources_1/imports/ee178_spring2017_lab6/tiff_writer.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/tiff_writer.v"/>
+          <Attr Name="ImportTime" Val="1443998820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -88,8 +96,10 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/vga_example.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/vga_example.xdc"/>
+          <Attr Name="ImportTime" Val="1445755640"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -100,8 +110,10 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/testbench.v">
+      <File Path="$PSRCDIR/sim_1/imports/ee178_spring2017_lab6/testbench.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Cloud/Box Sync/Class Aid/SJSU/EE178 Digital Design with FPGAs/Lab/ee178_spring2017_lab6/testbench.v"/>
+          <Attr Name="ImportTime" Val="1445834200"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -115,6 +127,34 @@
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="framebuffer" Type="BlockSrcs" RelSrcDir="$PSRCDIR/framebuffer">
+      <File Path="$PSRCDIR/sources_1/ip/framebuffer/framebuffer.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer.xml"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer_sim_netlist.v"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer_stub.vhdl"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer_stub.v"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer_sim_netlist.vhdl"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer.veo"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer.vho"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="synth/framebuffer.vhd"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="misc/blk_mem_gen_v8_3.vhd"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="summary.log"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="simulation/blk_mem_gen_v8_3.v"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="doc/blk_mem_gen_v8_3_changelog.txt"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="framebuffer_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="framebuffer.xci" FileRelPathName="sim/framebuffer.v"/>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="framebuffer"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
   </FileSets>
@@ -137,16 +177,45 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" IncludeInArchive="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" SynthRun="synth_1" IncludeInArchive="true">
+    <Run Id="framebuffer_synth_1" Type="Ft3:Synth" SrcSet="framebuffer" Part="xc7a35tcpg236-1" ConstrsSet="framebuffer" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/framebuffer_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="framebuffer_impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="framebuffer" Description="Default settings for Implementation." SynthRun="framebuffer_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

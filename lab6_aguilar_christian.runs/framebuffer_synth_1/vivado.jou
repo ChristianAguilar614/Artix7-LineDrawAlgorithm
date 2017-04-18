@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 17 20:41:57 2017
+# Process ID: 8824
+# Current directory: Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1
+# Command line: vivado.exe -log framebuffer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source framebuffer.tcl
+# Log file: Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer.vds
+# Journal file: Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1\vivado.jou
+#-----------------------------------------------------------
+source framebuffer.tcl -notrace
