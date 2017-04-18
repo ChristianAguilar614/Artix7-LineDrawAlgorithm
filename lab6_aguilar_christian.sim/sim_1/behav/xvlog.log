@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/sim/framebuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module framebuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/linedraw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module linedraw
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_example.v:61]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sim_1/imports/ee178_spring2017_lab6/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

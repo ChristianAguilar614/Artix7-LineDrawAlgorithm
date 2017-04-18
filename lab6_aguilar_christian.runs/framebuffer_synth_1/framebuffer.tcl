@@ -11,15 +11,15 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.cache/wt} [current_project]
-set_property parent.project_path {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.xpr} [current_project]
+set_property webtalk.parent_dir D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.cache/wt [current_project]
+set_property parent.project_path D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.xpr [current_project]
 set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.cache/ip} [current_project]
+set_property ip_output_repo d:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_ip -quiet {{z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.xci}}
-set_property is_locked true [get_files {{z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.xci}}]
+read_ip -quiet D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.xci
+set_property is_locked true [get_files D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.xci]
 
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
@@ -27,7 +27,7 @@ foreach dcp [get_files -quiet -all *.dcp] {
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 
-set cached_ip [config_ip_cache -export -no_bom -use_project_ipc -dir {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1} -new_name framebuffer -ip [get_ips framebuffer]]
+set cached_ip [config_ip_cache -export -no_bom -use_project_ipc -dir D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.runs/framebuffer_synth_1 -new_name framebuffer -ip [get_ips framebuffer]]
 
 if { $cached_ip eq {} } {
 
@@ -62,32 +62,32 @@ write_checkpoint -force -noxdef framebuffer.dcp
 catch { report_utilization -file framebuffer_utilization_synth.rpt -pb framebuffer_utilization_synth.pb }
 
 if { [catch {
-  file copy -force {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer.dcp} {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp}
+  file copy -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer.dcp D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.v}
+  write_verilog -force -mode synth_stub D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.vhdl}
+  write_vhdl -force -mode synth_stub D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.v}
+  write_verilog -force -mode funcsim D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.vhdl}
+  write_vhdl -force -mode funcsim D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -97,46 +97,46 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer.dcp} {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp}
+  file copy -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer.dcp D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_stub.v} {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.v}
+  file rename -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_stub.v D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_stub.vhdl} {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.vhdl}
+  file rename -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_stub.vhdl D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_sim_netlist.v} {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.v}
+  file rename -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_sim_netlist.v D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_sim_netlist.vhdl} {z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.vhdl}
+  file rename -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.runs/framebuffer_synth_1/framebuffer_sim_netlist.vhdl D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 }; # end if cached_ip 
 
-if {[file isdir {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.ip_user_files/ip/framebuffer}]} {
+if {[file isdir D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.ip_user_files/ip/framebuffer]} {
   catch { 
-    file copy -force {{z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.v}} {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.ip_user_files/ip/framebuffer}
+    file copy -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.v D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.ip_user_files/ip/framebuffer
   }
 }
 
-if {[file isdir {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.ip_user_files/ip/framebuffer}]} {
+if {[file isdir D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.ip_user_files/ip/framebuffer]} {
   catch { 
-    file copy -force {{z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.vhdl}} {Z:/Documents/Xilinx Projects/lab6_aguilar_christian/lab6_aguilar_christian.ip_user_files/ip/framebuffer}
+    file copy -force D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.vhdl D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.ip_user_files/ip/framebuffer
   }
 }

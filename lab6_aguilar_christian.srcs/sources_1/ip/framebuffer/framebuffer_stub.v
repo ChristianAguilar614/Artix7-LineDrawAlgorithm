@@ -1,10 +1,10 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-// Date        : Mon Apr 17 20:43:37 2017
+// Date        : Mon Apr 17 20:43:36 2017
 // Host        : CHRISTIANAG1660 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub {z:/Documents/Xilinx
-//               Projects/lab6_aguilar_christian/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer_stub.v}
+// Command     : write_verilog -force -mode synth_stub -rename_top framebuffer -prefix
+//               framebuffer_ framebuffer_stub.v
 // Design      : framebuffer
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a35tcpg236-1
