@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date         : Mon Apr 17 21:34:27 2017
-| Host         : MokeyBoy-DPC running 64-bit major release  (build 9200)
+| Date         : Tue Apr 18 12:49:58 2017
+| Host         : CHRISTIANAG1660 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file vga_example_utilization_synth.rpt -pb vga_example_utilization_synth.pb
 | Design       : vga_example
 | Device       : 7a35tcpg236-1
@@ -30,13 +30,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                |  104 |     0 |     20800 |  0.50 |
-|   LUT as Logic             |  102 |     0 |     20800 |  0.49 |
+| Slice LUTs*                |  210 |     0 |     20800 |  1.01 |
+|   LUT as Logic             |  208 |     0 |     20800 |  1.00 |
 |   LUT as Memory            |    2 |     0 |      9600 |  0.02 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
 |     LUT as Shift Register  |    2 |     0 |           |       |
-| Slice Registers            |  122 |     0 |     41600 |  0.29 |
-|   Register as Flip Flop    |  122 |     0 |     41600 |  0.29 |
+| Slice Registers            |  148 |     0 |     41600 |  0.36 |
+|   Register as Flip Flop    |  148 |     0 |     41600 |  0.36 |
 |   Register as Latch        |    0 |     0 |     41600 |  0.00 |
 | F7 Muxes                   |    2 |     0 |     16300 |  0.01 |
 | F8 Muxes                   |    0 |     0 |      8150 |  0.00 |
@@ -59,7 +59,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 122   |          Yes |       Reset |            - |
+| 148   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -152,15 +152,16 @@ Table of Contents
 +------------+------+---------------------+
 |  Ref Name  | Used | Functional Category |
 +------------+------+---------------------+
-| FDRE       |  122 |        Flop & Latch |
-| LUT6       |   43 |                 LUT |
-| LUT5       |   31 |                 LUT |
-| LUT4       |   29 |                 LUT |
+| FDRE       |  148 |        Flop & Latch |
+| LUT4       |   72 |                 LUT |
+| LUT6       |   63 |                 LUT |
+| LUT2       |   45 |                 LUT |
+| LUT5       |   43 |                 LUT |
 | OBUF       |   24 |                  IO |
+| LUT3       |   23 |                 LUT |
+| CARRY4     |   16 |          CarryLogic |
 | IBUF       |   13 |                  IO |
-| LUT2       |   12 |                 LUT |
-| LUT3       |   10 |                 LUT |
-| LUT1       |    4 |                 LUT |
+| LUT1       |    8 |                 LUT |
 | SRL16E     |    2 |  Distributed Memory |
 | MUXF7      |    2 |               MuxFx |
 | ODDR       |    1 |                  IO |

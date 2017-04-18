@@ -9,25 +9,25 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.cache/wt [current_project]
-set_property parent.project_path D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.xpr [current_project]
+set_property webtalk.parent_dir Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.cache/wt [current_project]
+set_property parent.project_path Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.xpr [current_project]
 set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo d:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.cache/ip [current_project]
+set_property ip_output_repo z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files -quiet D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp
-set_property used_in_implementation false [get_files D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp]
+add_files -quiet z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp
+set_property used_in_implementation false [get_files z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/framebuffer.dcp]
 read_verilog -library xil_defaultlib {
-  D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_timing.v
-  D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/linedraw.v
-  D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_example.v
+  Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_timing.v
+  Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/linedraw.v
+  Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_example.v
 }
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc
-set_property used_in_implementation false [get_files D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc]
+read_xdc Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc
+set_property used_in_implementation false [get_files Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc]
 
 
 synth_design -top vga_example -part xc7a35tcpg236-1

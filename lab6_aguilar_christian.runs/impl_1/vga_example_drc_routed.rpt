@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date         : Mon Apr 17 21:35:59 2017
-| Host         : MokeyBoy-DPC running 64-bit major release  (build 9200)
+| Date         : Tue Apr 18 12:51:11 2017
+| Host         : CHRISTIANAG1660 running 64-bit major release  (build 9200)
 | Command      : report_drc -file vga_example_drc_routed.rpt -pb vga_example_drc_routed.pb -rpx vga_example_drc_routed.rpx
 | Design       : vga_example
 | Device       : xc7a35tcpg236-1

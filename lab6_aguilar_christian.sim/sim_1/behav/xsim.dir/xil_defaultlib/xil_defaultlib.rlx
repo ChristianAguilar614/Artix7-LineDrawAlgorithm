@@ -2,10 +2,10 @@
 2016.4
 Jan 23 2017
 19:37:30
-D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
-D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sim_1/imports/ee178_spring2017_lab6/testbench.v,1492501223,verilog,,,,testbench,,,,,,,,
-D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/linedraw.v,1492499389,verilog,,,,linedraw,,,,,,,,
-D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/tiff_writer.v,1492487492,verilog,,,,tiff_writer,,,,,,,,
-D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_example.v,1492487492,verilog,,,,vga_example,,,,,,,,
-D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_timing.v,1492489416,verilog,,,,vga_timing,,,,,,,,
-D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/sim/framebuffer.v,1492487492,verilog,,,,framebuffer,,,,,,,,
+Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sim_1/imports/ee178_spring2017_lab6/testbench.v,1492544090,verilog,,,,testbench,,,,,,,,
+Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/linedraw.v,1492501819,verilog,,,,linedraw,,,,,,,,
+Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/tiff_writer.v,1443998820,verilog,,,,tiff_writer,,,,,,,,
+Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_example.v,1445784936,verilog,,,,vga_example,,,,,,,,
+Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/imports/ee178_spring2017_lab6/vga_timing.v,1492489317,verilog,,,,vga_timing,,,,,,,,
+Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/sources_1/ip/framebuffer/sim/framebuffer.v,1492486914,verilog,,,,framebuffer,,,,,,,,

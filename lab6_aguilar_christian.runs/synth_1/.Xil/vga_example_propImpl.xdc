@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/Christian/Git/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc rfile:../../../lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:Z:/Cloud/Github/Personal/Artix7-LineDrawAlgorithm/lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc rfile:../../../lab6_aguilar_christian.srcs/constrs_1/imports/ee178_spring2017_lab6/vga_example.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
